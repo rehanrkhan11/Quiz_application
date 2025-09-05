@@ -1,5 +1,7 @@
 {
   "name": "quiz-app",
+  "homepage": "https://rehanrkhan11.github.io/Quiz_application",
+
   "version": "1.0.0",
   "private": true,
   "scripts": {
