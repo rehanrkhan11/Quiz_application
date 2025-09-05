@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <!-- React + ReactDOM from CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <!-- Babel for JSX in browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Load components in order -->
+    <script type="text/babel" src="./src/components/QuizPage.jsx"></script>
+    <script type="text/babel" src="./src/components/Results.jsx"></script>
+    <script type="text/babel" src="./src/App.jsx"></script>
+    <script type="text/babel" src="./src/main.jsx"></script>
+  </body>
+</html>

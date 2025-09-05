@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --glass-bg: rgba(255,255,255,0.6); --glass-dark: rgba(17,24,39,0.6); }
+.glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px) saturate(120%); }
+.dark .glass { background: rgba(17,24,39,0.6); }
